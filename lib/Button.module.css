@@ -1,0 +1,15 @@
+.base {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 0.5em 1em;
+}
+
+.large {
+  padding: 1em;
+}
+
+.small {
+  font-size: 14px;
+  padding: 0.25em 0.5em;
+}
