@@ -23,7 +23,7 @@ const responsiveValues = {
   }
 };
 
-export default function ConditionalPage() {
+export default function ObjectPage() {
   return (
     <div>
       <Link href="/">

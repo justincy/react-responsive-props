@@ -13,8 +13,18 @@ export default function IndexPage() {
           </Link>
         </li>
         <li>
+          <Link href="breakpoint">
+            <a>Breakpoint Props</a>
+          </Link>
+        </li>
+        <li>
           <Link href="object">
             <a>Object of Props</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="array">
+            <a>Array of Props</a>
           </Link>
         </li>
       </ul>
