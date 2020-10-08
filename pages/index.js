@@ -51,14 +51,6 @@ export default function IndexPage() {
         </ButtonResponsive>
       </p>
       <p>
-        <ButtonResponsive
-          size={{ xs: "small", sm: "small", md: "medium", lg: "large" }}
-          color={{ xs: "#B0E0E6", sm: "#2E8B57", md: "#F5DEB3", lg: "#F08080" }}
-        >
-          ButtonResponsive
-        </ButtonResponsive>
-      </p>
-      <p>
         <ButtonResponsiveHOC
           size={{ xs: "small", sm: "small", md: "medium", lg: "large" }}
           color={{ xs: "#B0E0E6", sm: "#2E8B57", md: "#F5DEB3", lg: "#F08080" }}
