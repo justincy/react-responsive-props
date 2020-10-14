@@ -3,6 +3,7 @@ import Button from "../lib/Button.js";
 import ButtonResponsive from "../lib/object/ButtonResponsive.js";
 import ButtonResponsiveHOC from "../lib/object/ButtonResponsiveHOC.js";
 import Responsive from "../lib/object/Responsive.js";
+import useBreakpointValues from "../lib/object/useBreakpointValues.js";
 
 const responsiveValues = {
   xs: {
@@ -24,12 +25,18 @@ const responsiveValues = {
 };
 
 export default function ObjectPage() {
+  const {size: currentSize, color: currentColor} = useBreakpointValues(responsiveValues);
   return (
     <div>
       <Link href="/">
         <a>Home</a>
       </Link>
       <h1>Object of Props</h1>
+      <p>
+        <Button size={currentSize} color={currentColor}>
+          useBreakpointValues()
+        </Button>
+      </p>
       <p>
         <Responsive props={responsiveValues}>
           {({ size, color }) => (
