@@ -7,4 +7,4 @@ This repo contains a simple Next.js app which demonstrates different responsive 
 * [Object of Props](/pages/object.js)
 * [Array of Props](/pages/array.js)
 
-This repo was created in conjunction with a blog post about responsive props.
+This repo was created in conjunction with a [blog post about responsive props](https://dev.to/justincy/4-patterns-for-responsive-props-in-react-39ak).
